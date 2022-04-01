@@ -2,25 +2,28 @@
 <html>
    <head>
       <title>Assignment 4</title>
+      <link rel = "stylesheet" type = "text/css" href = "styles.css" />
    </head>
    <body>
       <!-- Write your HTML in this file! -->
       <header>
-         <h1>Cooking: From Necessity to Specialty</h1>
-         <p>A story of how I became the Fearless Chef I am today</p>
+         <h1 id="mainHeading">Cooking: From Necessity to Specialty</h1>
+         <p style="text-align: center">A story of how I became the Fearless Chef I am today</p>
          <nav>
             <ul>
-               <li>Struggle Meals</li>
-               <li>Something in Between</li>
-               <li>Farm to Table, but Make it #Fancy</li>
+               <li><a href="#struggle">Struggle Meals</a></li>
+               <li><a href="#between">Something in Between</a></li>
+               <li><a href="#fancy">Farm to Table, but Make it #Fancy</a></li>
             </ul>
          </nav>
        </header>
 
        <main>
+          <div id="main-content">
           <article>
 
              <section>
+               <a name="struggle"></a>
                 <h3>Struggle Meals</h3>
                 <p>My journey into cooking started where I think it does for a lot of people -- college.
                    <br>It was my second year to be exact. I was finally living in an apartment with a full kitchen and no longer had a meal plan
@@ -30,11 +33,12 @@
             lentil soup, rice, roast chicken, and spaghetti.</p>
             <figure>
                <img src="images/ig-chicken.png" alt="My first true meal in a college apartment" />
-               <figcaption>Roast chicken and veggies were a treat then and are still one of my favorite easy dinners to make now. </figcaption>
+               <figcaption class="caption">Roast chicken and veggies were a treat then and are still one of my favorite easy dinners to make now. </figcaption>
             </figure>
              </section>
 
              <section>
+               <a name="between"></a>
                 <h3>Something in Between</h3>
                 <p>Around the time I had finished learning a the basics, Buzzfeed's Tasty platform absolutely took off.
                   <br>My mother had FoodNetwork, I now had Tasty. Cooking tutorials had never been so consumable (no pun intended) and seeing a
@@ -43,24 +47,25 @@
             income from tips would be going straight to Schnucks &amp; Aldi.</p>
             <figure>
                <img src="images/tasty-steak.png" alt="BuzzFeed Tasty Steak" />
-               <figcaption>This was the video that truly showed me how simple cooking can be, and how delicious the results could end up: 
+               <figcaption class="caption">This was the video that truly showed me how simple cooking can be, and how delicious the results could end up: 
                   <a href="https://www.youtube.com/watch?v=qKwKWwGt1SY&t=3s">https://www.youtube.com/watch?v=qKwKWwGt1SY&t=3s</a>
                </figcaption>
             </figure>
              </section>
 
              <section>
+               <a name="fancy"></a>
                 <h3>Farm to Table, but Make it #Fancy</h3>
-                <p>A few years ago I met my boyfriend who made me think about my cooking in an entirely different way by asking me one question on
-                   our first date: Had I ever cooked with wild game?
-                  <br>My answer was no, but as a hippie millennial I'd always been a fan of the Farm to Table concept. Having grown up in Hawaii,
+                <p id="testP" class="funParagraph">A few years ago I met my boyfriend who made me think about my cooking in an entirely different way by asking me one question on
+                   our first date: Had I ever cooked with wild game?</p>
+                  <p>My answer was no, but as a hippie millennial I'd always been a fan of the Farm to Table concept. Having grown up in Hawaii,
                      sustainability is very close to my heart and what better way could I live off the land than harvest my own meat? And now with
                      years of cooking under my belt, how fancy could I dress up wild game? And this is where I am today -- continually finding new
                      and fun ways to use the deer meat we get from hunting every year. 
                   </p>
                   <figure>
                      <img src="images/bambi-chop.png" alt="venison chop" />
-                     <figcaption>Now this was a masterpiece I cooked up for Valentine's Day this year: a venison chop with lobster tail and sauce
+                     <figcaption class="caption">Now this was a masterpiece I cooked up for Valentine's Day this year: a venison chop with lobster tail and sauce
                         over a roasted cauliflower mash, with bacon roasted asparagus. This deer was harvested late last fall from my boyfriend's
                         family farm in northern Missouri.</figcaption>
                   </figure>
@@ -68,9 +73,12 @@
 
           </article>
 
+          </div>
+
        </main>
       
        <footer>
+          <div id="footer-content">
          "People who love to eat are always the best people." - Julia Child
        </footer>
 
