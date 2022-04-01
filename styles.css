@@ -1,1 +1,52 @@
 /* Write your CSS here! */
+
+body{
+    margin: 8px;
+    display: block;
+}
+
+#mainHeading {
+    color: red;
+}
+
+h1 {
+    text-align: center;
+ }
+
+section {
+    width: 1000px;
+    margin: auto;
+ }
+
+h3 {
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+
+#main-content {
+    background-color: lightgray;
+  }
+
+#footer-content {
+      color: white;
+      background-color: black;
+      text-align: center;
+      font-style: italic;
+  }
+.caption {
+    font-style: italic;
+}
+
+.funParagraph {
+    color: green;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+nav ul {
+	text-align: center;
+	padding: 0;
+}
